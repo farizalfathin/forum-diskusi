@@ -11,7 +11,7 @@ export default function useForm(initialValue) {
     }));
   };
 
-  return [value, onChange]
+  return [value, onChange];
 }
 
 useForm.propTypes = {
