@@ -1,0 +1,21 @@
+[data-placeholder]:empty::before {
+  content: attr(data-placeholder);
+  color: #94a3b8;
+}
+
+.triple_dots {
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* Set the number of lines you want to display */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.scroll_hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll_hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

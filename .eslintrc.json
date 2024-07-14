@@ -1,0 +1,28 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true,
+        "cypress/globals": true
+    },
+    "extends": "airbnb",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "quotes": ["warn", "single"],
+        "no-param-reassign": "off",
+        "eslint-plugin-import/no-extraneous-dependencies": "off",
+        "react/require-default-props": "off",
+        "no-nested-ternary": "off",
+        "jsx-a11y/label-has-associated-control": "off",
+        "react/forbid-prop-types": "off",
+        "no-alert": "off",
+        "jsx-a11y/control-has-associated-label": "off",
+        "max-len": "off",
+        "import/no-extraneous-dependencies": "off",
+        "default-param-last": "off",
+        "no-console": "off"
+    }
+}
